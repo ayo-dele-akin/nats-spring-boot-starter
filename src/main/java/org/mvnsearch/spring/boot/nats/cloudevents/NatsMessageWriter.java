@@ -12,9 +12,7 @@ import io.nats.client.Message;
 import io.nats.client.impl.Headers;
 import io.nats.client.impl.NatsMessage;
 import io.nats.client.support.NatsConstants;
-
-import javax.annotation.ParametersAreNonnullByDefault;
-
+import org.jspecify.annotations.NullMarked;
 
 /**
  * The NatsMessageWriter class is a CloudEvents message writer for NATS.
@@ -25,7 +23,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
  *
  * @author linux_china
  */
-@ParametersAreNonnullByDefault
+@NullMarked
 public class NatsMessageWriter implements MessageWriter<CloudEventWriter<Message>, Message>, CloudEventWriter<Message> {
   private final Headers headers;
   private final NatsMessage.Builder builder;
