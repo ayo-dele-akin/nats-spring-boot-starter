@@ -6,7 +6,7 @@ Spring Boot 2.x/3.x starter for NATS with Publish/Subscribe, Services Framework,
 
 # Why Spring Boot starter for NATS?
 
-NATS is very simple, why you create a starter for Spring Boot?
+NATS is very simple already, why do you create a starter for Spring Boot?
 
 * Nats Microservices framework support: RPC style with `json`, `protobuf`, `avro` data format.
 * JetStream KeyValue watch support: durable Component and state sync between instances.
@@ -20,7 +20,7 @@ NATS is very simple, why you create a starter for Spring Boot?
 
 # Get Started with Publish/Subscribe
 
-* please add following dependency in your pom.xml
+* please add the following dependency in your pom.xml
 
 ```xml
 
@@ -38,7 +38,7 @@ nats.spring.server = nats://localhost:4222
 nats.spring.connection-name=${spring.application.name}.${random.uuid}
 ```
 
-* in you code, use NatsTemplate to send message
+* in your code, use NatsTemplate to send a message
 
 ```
    @Autowired
