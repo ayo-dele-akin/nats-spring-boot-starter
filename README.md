@@ -291,6 +291,7 @@ Services Framework(request-reply)
 
 * NATS:  https://nats.io/
 * NATS Docs: https://docs.nats.io/
+* Monitoring NATS Endpoints: https://docs.nats.io/running-a-nats-service/nats_admin/monitoring
 * NATS Server Monitoring: https://docs.nats.io/running-a-nats-service/configuration/monitoring
 * NATS Architecture and Design Docs: https://github.com/nats-io/nats-architecture-and-design
 * NATS Java client: https://github.com/nats-io/nats.java
